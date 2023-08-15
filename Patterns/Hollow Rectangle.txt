@@ -1,0 +1,17 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int totRows=4;
+    int totCols=5;
+    for(int i=0;i<totRows;i++){
+        for(int j=0;j<totCols;j++){
+            if(i==0||i==totRows-1||j==0||j==totCols-1){
+                cout<<"*";
+            }
+            else{
+                cout<<" ";
+            }
+        }
+        cout<<endl;
+    }
+}
